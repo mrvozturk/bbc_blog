@@ -1,0 +1,680 @@
+#navbar {
+
+    flex-direction: column;
+    padding-top: 0.2rem;
+    padding-bottom: 5rem;
+    height: 20px;
+    font-size: 7.8px;
+}
+
+h1 {
+    font-size: 7px;
+}
+
+
+.wrap {
+
+    width: 100vw;
+    height: 200px;
+}
+
+
+.mrv1 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.mrv2 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.mrv3 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+
+.mrv4 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.mrv5 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.mrv6 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+.mrv7 {
+
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+}
+
+/**/
+
+
+/**/
+
+.spacer {
+    width: 100%;
+    height: 5rem;
+    margin-top: -8rem;
+}
+
+.swimlane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: .4s transform;
+}
+
+.tile {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    width: 400px;
+    height: 90px;
+    background: url(images/images.jpeg);
+    box-sizing: border-box;
+    transition: .4s transform;
+    transform-origin: center left;
+}
+
+/**/
+.dnm1 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+h3 {
+    text-transform: uppercase;
+
+}
+
+/* ==============================
+		Gallery
+=================================*/
+.gallery {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container h3 {
+    font-size: 7px;
+    font-weight: 300;
+}
+
+.image-container>h3 {
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.image-container>p {
+    margin-top: 10px;
+    font-size: 10px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+/* ==============================
+		Media Queries
+=================================*/
+@media (min-width: 768px) {
+    .image-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .image-container {
+        width: 33%;
+    }
+}
+
+.img-1 {
+    margin-left: -6.5rem;
+    margin-top: -18rem;
+
+
+}
+
+.img-2 {
+    margin-right: -25rem;
+    margin-top: -18rem;
+}
+
+/* image 1 */
+.img-1 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-1 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 2 */
+.img-2 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-2 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/**/
+.dnm2 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* ==============================
+		Gallery
+=================================*/
+.mrv-gallery {
+    width: 140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mrv-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mrv-container img {
+    max-width: 100%;
+}
+
+.mrv-container h3 {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.mrv-container>h3 {
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.mrv-container>p {
+    margin-top: 2px;
+    font-size: 10px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+    .mrv-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .mrv-container {
+        width: 33%;
+    }
+}
+
+.img-3 {
+    margin-right: 1rem;
+    margin-top: -6rem;
+
+}
+
+.img-4 {
+
+    margin-left: 0.7rem;
+    margin-top: -10.3rem;
+}
+
+.img-5 {
+
+    margin-top: -10.2rem;
+}
+
+/* image 1 */
+.img-3 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-3 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 2 */
+.img-4 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-4 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 3 */
+.img-5 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-5 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/**/
+/**/
+
+.dnm3 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* ==============================
+		Gallery
+=================================*/
+.ozt-gallery {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ozt-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ozt-container img {
+    max-width: 100%;
+}
+
+.ozt-container h3 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.ozt-container>h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.ozt-container>p {
+    margin-bottom: 90px;
+    margin-top: 10px;
+    font-size: 12px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+
+@media (min-width: 768px) {
+    .ozt-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .ozt-container {
+        width: 33%;
+    }
+}
+
+.img-6 {
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+/* image 2 */
+.img-6 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-6 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+.dnm4 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+/* ==============================
+		Gallery
+=================================*/
+.nbr-gallery {
+
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nbr-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nbr-container img {
+    max-width: 100%;
+}
+
+.nbr-container h3 {
+
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nbr-container>h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.nbr-container>p {
+    margin-bottom: 70px;
+    color: black;
+    font-size: 10px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+/* ==============================
+		Media Queries
+=================================*/
+@media (min-width: 768px) {
+    .nbr-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .nbr-container {
+        width: 33%;
+    }
+}
+
+
+/* image 1 */
+
+.img-7 {
+    margin-left: -6.7rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.img-8 {
+
+    margin-right: -12rem;
+    margin-top: 0.9rem;
+}
+
+.img-7 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-7 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 2 */
+.img-8 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.img-8 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/**/
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(images/fee449calamas1.jpg);
+    min-height: 100%;
+    margin-top: 100px;
+}
+
+:root {
+    /* Primary */
+
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    /* Accent */
+    --Blue: hsl(248, 32%, 49%);
+    /* Neutral */
+    --Dark-Blue: hsl(249, 10%, 26%);
+
+}
+
+h2 {
+    color: white;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1rem;
+    color: white;
+}
+
+.ddn {
+    margin-left: -10px;
+    background-image: url(images/3_4.avif);
+    width: 350px;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.ddn {
+    background-position: top;
+    background-size: cover;
+}
+
+.hero {
+    margin-right: -320px;
+    width: 55%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.hero__title {
+    max-width: 20ch;
+    padding: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2em;
+}
+
+.hero__desc {
+    color: white;
+}
+
+.sign-up {
+    width: 450px;
+    margin-top: 880px;
+    margin-bottom: 200px;
+}
+
+#bar {
+
+    flex-direction: column;
+    height: 1px;
+    font-size: 9px;
+}
+
+#bar ul {
+    margin-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+#bar ul li a {
+    margin-left: 15px;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+
+h5 {
+    margin-top: 50px;
+    color: green;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h6 {
+    margin-top: -10px;
+    margin-bottom: 300px;
+    color: gray;
+    font-size: 10px;
+    margin-left: 1px;
+    margin-right: -450px;
+}
+
+.cat-1 {
+    width: 180px;
+    height: 350px;
+    margin: 0;
+    background-image: url('images/110000289962706.jpg');
+    position: relative;
+}
+
+.cat-2 {
+    width: 180px;
+    height: 350px;
+    margin: 0;
+    background-image: url('images/40.jpg');
+    position: relative;
+}
+
+.cat-3 {
+
+    width: 180px;
+    height: 350px;
+    margin: 0;
+    background-image: url('images/110000289962716.jpg');
+    position: relative;
+}
+
+.picture {
+    margin-top: 310px;
+    margin-right: 15px;
+    padding: 0px;
+}
+
+.hr1 {
+    margin-top: 110px;
+}
