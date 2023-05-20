@@ -100,35 +100,6 @@
 }
 
 /**/
-.spacer {
-    width: 100%;
-    height: 5rem;
-    margin-top: -3rem;
-
-}
-
-.swimlane {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    transition: .4s transform;
-}
-
-.tile {
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-
-    width: 320px;
-    height: 180px;
-    background: url(images/images.jpeg);
-    box-sizing: border-box;
-    transition: .4s transform;
-    transform-origin: center left;
-}
-
-/**/
 .dnm1 {
     width: 94%;
     max-width: 1400px;
@@ -136,17 +107,13 @@
     background: #fff;
 }
 
-h1,
-h3,
-.button {
-    text-transform: uppercase;
-}
 
 /* ==============================
 		Gallery
 =================================*/
-.gallery {
-    width: 700px;
+.image-gallery {
+
+    width: 750px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -170,13 +137,14 @@ h3,
 }
 
 .image-container>h3 {
-    margin-top: 10px;
+    margin-top: -30em;
     margin-bottom: 1em;
 }
 
 /* the paragraph pushes the button to the bottom
 			displaying equal height photo-containers*/
 .image-container>p {
+    color: black;
     flex-grow: 1;
     flex-basis: auto;
 }
@@ -197,18 +165,17 @@ h3,
 }
 
 
-.img-1 {
-    margin-left: 1rem;
-    margin-top: -15rem;
+/* image 1 */
 
+.img-1 {
+    margin-left: -1.9rem;
 }
 
 .img-2 {
-    margin-right: -10rem;
-    margin-top: -15rem;
+    margin-top: -2.7rem;
+    margin-left: 24.5rem;
 }
 
-/* image 1 */
 .img-1 img {
     transition: box-shadow 0.4s, transform 0.4s;
 }
@@ -227,6 +194,7 @@ h3,
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
     transform: scale(1.03);
 }
+
 
 /**/
 .dnm2 {
@@ -274,6 +242,7 @@ h3,
 /* the paragraph pushes the button to the bottom
 			displaying equal height photo-containers*/
 .mrv-container>p {
+    font-size: 12px;
     flex-grow: 1;
     flex-basis: auto;
 }
@@ -292,7 +261,7 @@ h3,
 
 .img-3 {
     margin-top: -3rem;
-    margin-left: -8.5rem;
+    margin-left: -10.5rem;
 }
 
 .img-4 {
@@ -381,6 +350,7 @@ h3,
 /* the paragraph pushes the button to the bottom
 			displaying equal height photo-containers*/
 .ozt-container>p {
+    margin-bottom: 20px;
     color: black;
     flex-grow: 1;
     flex-basis: auto;
@@ -400,7 +370,7 @@ h3,
 }
 
 .img-6 {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 14px;
 }
 
@@ -413,8 +383,116 @@ h3,
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
     transform: scale(1.03);
 }
-
+/**/
 .dnm4 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+/* ==============================
+		Gallery
+=================================*/
+.mlk-gallery {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mlk-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mlk-container img {
+    max-width: 100%;
+}
+
+.mlk-container h3 {
+
+    margin-right: 120px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.mlk-container>h3 {
+    margin-top: 30px;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.mlk-container>p {
+    font-size: 12px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+    .mlk-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .mlk-container {
+        width: 33%;
+    }
+}
+
+.nmr-7 {
+    margin-top: -3rem;
+    margin-left: -10.5rem;
+}
+
+.nmr-8 {
+    margin-top: -3rem;
+}
+
+.nmr-9 {
+    margin-top: -3rem;
+    margin-right: -20rem;
+}
+
+/* image 1 */
+.nmr-7 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.nmr-7 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 2 */
+.nmr-8 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.nmr-8 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 3 */
+.nmr-9 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.nmr-9 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/**/
+
+.dnm5 {
     width: 94%;
     max-width: 1400px;
     margin: 0 auto;
@@ -481,31 +559,117 @@ h3,
 
 /* image 1 */
 
-.img-7 {
-    margin-left: 0;
-    margin-top: 100px;
+.img-10 {
+    margin-left:-1rem;
 }
 
-.img-8 {
 
-    margin-top: 100px;
-}
-
-.img-7 img {
+.img-10 img {
     transition: box-shadow 0.4s, transform 0.4s;
 }
 
-.img-7 img:hover {
+.img-10 img:hover {
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
     transform: scale(1.03);
 }
 
 /* image 2 */
-.img-8 img {
+.img-11 img {
     transition: box-shadow 0.4s, transform 0.4s;
 }
 
-.img-8 img:hover {
+.img-11 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+/**/
+.dnm6 {
+    width: 94%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+/* ==============================
+		Gallery
+=================================*/
+.slm-gallery {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slm-container {
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.slm-container img {
+    max-width: 100%;
+}
+
+.slm-container h3 {
+
+    margin-right: 120px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.slm-container>h3 {
+    margin-top: 30px;
+    margin-bottom: 1em;
+}
+
+/* the paragraph pushes the button to the bottom
+			displaying equal height photo-containers*/
+.slm-container>p {
+    font-size: 12px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+    .slm-container {
+        width: 49%;
+    }
+}
+
+@media (min-width: 968px) {
+    .slm-container {
+        width: 33%;
+    }
+}
+
+.ont-12 {
+    margin-top: -3rem;
+    margin-left: -7.8rem;
+}
+
+.ont-13{
+    margin-top: -3rem;
+}
+
+/* image 1 */
+.ont12 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.ont-12 img:hover {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+}
+
+/* image 2 */
+.ont-13 img {
+    transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.ont-13 img:hover {
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.4);
     transform: scale(1.03);
 }
@@ -516,7 +680,7 @@ h2 {
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -621,7 +785,7 @@ h6 {
 
 .picture {
     margin-left: -40px;
-    margin-right: 62px;
+    margin-right: 61px;
     margin-top: 350px;
     margin-bottom: 300px;
     padding: 0px;
