@@ -399,7 +399,7 @@ h6 {
 
 
 h2 {
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 1.5rem;
     font-size: 12px;
 }
@@ -410,7 +410,7 @@ h2 {
     background-image: url(images/3_4.avif);
     width: 120px;
     /* Daha küçük bir genişlik */
-    height: 430px;
+    height: 400px;
     /* Daha küçük bir yükseklik */
     margin: 100px auto;
     /* Otomatik yatay ortala */
@@ -448,7 +448,7 @@ h2 {
     margin-left: 220px;
     width: 170px;
     /* Daha küçük bir genişlik */
-    margin-top: 150px;
+    margin-top: 140px;
     /* Daha küçük bir üst boşluk */
 }
 
