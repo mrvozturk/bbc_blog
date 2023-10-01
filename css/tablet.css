@@ -17,7 +17,7 @@ h1 {
     /* Center the navbar horizontally */
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1030px) {
     #navbar {
         font-size: 25px;
         padding-top: 0.5rem;
@@ -33,7 +33,7 @@ h1 {
 
 .wrap {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1030px;
     height: 300px;
     flex-direction: row;
     gap: 1px;
